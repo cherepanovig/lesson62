@@ -16,7 +16,7 @@ import asyncio
 from crud_functions import get_all_products
 
 # Инициализация бота и диспетчера
-TOKEN = "7247438168:AAEOBuL3PvZz8tMAi1lvsg-5DyilPzPY3zU"
+TOKEN = "My_Token"
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
